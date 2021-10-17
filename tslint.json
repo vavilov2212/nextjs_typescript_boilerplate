@@ -1,0 +1,139 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "rulesDirectory": [
+    "./node_modules/tslint-misc-rules/rules"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "src/**/*.json",
+      "**/*.json"
+    ]
+  },
+  "rules": {
+    "arrow-parens": false,
+    "arrow-return-shorthand": [
+      false
+    ],
+    "class-method-newlines": [
+      true,
+      {
+        "padded-classes": true
+      }
+    ],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "import-blacklist": [
+      true,
+      "rxjs"
+    ],
+    "interface-over-type-literal": false,
+    "interface-name": false,
+    "jsx-no-multiline-js": false,
+    "jsx-curly-spacing": false,
+    "max-line-length": [
+      false,
+      180
+    ],
+    "member-access": false,
+   "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "newline-before-return": false,
+    "no-any": false,
+    "no-console": false,
+    "no-empty-interface": false,
+    "no-import-side-effect": [
+      true,
+      "moment"
+    ],
+    "no-inferrable-types": [
+      true,
+      "ignore-params",
+      "ignore-properties"
+    ],
+    "no-null-keyword": false,
+    "no-require-imports": false,
+    "no-this-assignment": [
+      true,
+      {
+        "allow-destructuring": true
+      }
+    ],
+    "no-trailing-whitespace": true,
+    "no-unused-variable": [
+      true,
+      "react"
+    ],
+    "object-literal-sort-keys": false,
+    "object-literal-shorthand": false,
+    "one-variable-per-declaration": [
+      false
+    ],
+    "only-arrow-functions": [
+      true,
+      "allow-declarations"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "prefer-method-signature": false,
+    "prefer-template": [
+      true,
+      "allow-single-concat"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
+        "esSpecCompliant": true
+      }
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "type-literal-delimiter": true,
+    "typedef": [
+      true,
+      "parameter",
+      "property-declaration"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "jsx-no-lambda": false,
+    "no-empty": false,
+    "eofline": false,
+    "indent": false,
+    "curly": [true, "ignore-same-line"],
+    "one-line": [true, "check-catch", "check-finally"]
+  }
+}
