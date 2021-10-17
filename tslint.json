@@ -1,46 +1,27 @@
 {
-  "extends": [
-    "tslint:recommended",
-    "tslint-react"
-  ],
-  "rulesDirectory": [
-    "./node_modules/tslint-misc-rules/rules"
-  ],
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rulesDirectory": ["./node_modules/tslint-misc-rules/rules"],
   "linterOptions": {
-    "exclude": [
-      "src/**/*.json",
-      "**/*.json"
-    ]
+    "exclude": ["src/**/*.json", "**/*.json"]
   },
   "rules": {
     "arrow-parens": false,
-    "arrow-return-shorthand": [
-      false
-    ],
+    "arrow-return-shorthand": [false],
     "class-method-newlines": [
       true,
       {
         "padded-classes": true
       }
     ],
-    "comment-format": [
-      true,
-      "check-space"
-    ],
-    "import-blacklist": [
-      true,
-      "rxjs"
-    ],
+    "comment-format": [true, "check-space"],
+    "import-blacklist": [true, "rxjs"],
     "interface-over-type-literal": false,
     "interface-name": false,
     "jsx-no-multiline-js": false,
     "jsx-curly-spacing": false,
-    "max-line-length": [
-      false,
-      180
-    ],
+    "max-line-length": [false, 180],
     "member-access": false,
-   "member-ordering": [
+    "member-ordering": [
       true,
       {
         "order": "fields-first"
@@ -50,15 +31,8 @@
     "no-any": false,
     "no-console": false,
     "no-empty-interface": false,
-    "no-import-side-effect": [
-      true,
-      "moment"
-    ],
-    "no-inferrable-types": [
-      true,
-      "ignore-params",
-      "ignore-properties"
-    ],
+    "no-import-side-effect": [true, "moment"],
+    "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
     "no-null-keyword": false,
     "no-require-imports": false,
     "no-this-assignment": [
@@ -68,37 +42,16 @@
       }
     ],
     "no-trailing-whitespace": true,
-    "no-unused-variable": [
-      true,
-      "react"
-    ],
+    "no-unused-variable": [true, "react"],
     "object-literal-sort-keys": false,
     "object-literal-shorthand": false,
-    "one-variable-per-declaration": [
-      false
-    ],
-    "only-arrow-functions": [
-      true,
-      "allow-declarations"
-    ],
-    "ordered-imports": [
-      false
-    ],
+    "one-variable-per-declaration": [false],
+    "only-arrow-functions": [true, "allow-declarations"],
+    "ordered-imports": [false],
     "prefer-method-signature": false,
-    "prefer-template": [
-      true,
-      "allow-single-concat"
-    ],
-    "quotemark": [
-      true,
-      "single",
-      "jsx-double"
-    ],
-    "semicolon": [
-      true,
-      "always",
-      "ignore-bound-class-methods"
-    ],
+    "prefer-template": [true, "allow-single-concat"],
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
     "trailing-comma": [
       true,
       {
@@ -112,16 +65,9 @@
         "esSpecCompliant": true
       }
     ],
-    "triple-equals": [
-      true,
-      "allow-null-check"
-    ],
+    "triple-equals": [true, "allow-null-check"],
     "type-literal-delimiter": true,
-    "typedef": [
-      true,
-      "parameter",
-      "property-declaration"
-    ],
+    "typedef": [true, "parameter", "property-declaration"],
     "variable-name": [
       true,
       "ban-keywords",
